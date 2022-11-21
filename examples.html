@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sebastiao Salgado</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+<body>
+
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        <a href="#">Chen & Co.</a>
+      </div>
+      <ul class="menu-list">
+        <div class="icon2 cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="about.html#about">About</a></li>
+        <li><a href="examples.html#portfolio">Portfolio</a></li>
+        <li><a href="examples.html#insta">Instagram</a></li>
+      </ul>
+      <div class="icon2 menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+    <div class="skip"><a href="examples.html#portfolio">Skip to Main Content</a></div>
+
+  </nav>
+
+     <!-- header -->
+     <header id = "header" class = "vh-100 flex">
+        <div class = "container">
+            <div class = "header-content">
+                <h1>His past work is <br><span class = "typewrite" data-loop = "yes" data-speed = "100" data-delay = "2000" data-words = '["raw", "introspective", "unfiltered"]'></span></h1>
+                <h2>SEBASTIAO SALGADO</h2>
+
+             
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+  <!-- main content -->
+  <main>
+    <!-- portfolio section -->
+    <section id="portfolio" class="vh-100 py-7">
+      <div class="container">
+        <div class="portfolio-content">
+          <div class="title">
+            <h2>last works</h2>
+          
+          </div>
+
+          <div class="portfolio-grid grid">
+            <div><img src="images/port-1.jpg" alt="Image from Sebastiao Salgado's Goldmine Portfolio of many miners digging in unison" /></div>
+            <div><img src="images/port-2.jpg" alt="Image that Sebastiao Salgado took of worker walking towards a Kuwait oil fire in 1991" /></div>
+            <div><img src="images/port-3.jpg" alt="Sebastiao Salgado's indelible images of workers and wanderes, including in West Africa's Sahel" /></div>
+            <div><img src="images/port-4.jpg" alt="Image of many miners confronting the mine guards"/></div>
+            <div><img src="images/port-5.jpg" alt="A Yanomami shaman, Amazonas state, Brazil, 2014.
+              "/></div>
+            <div><img src="images/port-6.jpg" alt="Picture of a woman walking through a desert in Brazil during a drought"/></div>
+            <div><img src="images/port-7.jpg" alt="Another raw shot of a depleted gold mine worker" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of portfolio section -->
+
+    <!-- instagram section -->
+    <section id="insta" class="py-7">
+      <div class="container">
+        <div class="insta-content">
+          <div class="title">
+            <h2>instagram</h2>
+            
+
+          </div>
+          <div class="insta-grid grid">
+            
+            <div><a href = https://www.instagram.com/p/CdI6TRIIo_b/?utm_source=ig_web_copy_link aria-label="Link to instagram photo top left"><img src="images/insta-1.jpg" / alt="Instagram image of a traditional native brazilian girl"> </a></div>
+            <div><a href = https://www.instagram.com/p/CThm-wCoGHk/?utm_source=ig_web_copy_link aria-label="Link to instagram photo top right"><img src="images/insta-2.jpg" alt="Instagram image of a man holding a newspaper after the electoin in Brazil"/> </a></div>
+            <div><a href = https://www.instagram.com/p/CRjwT6VLCV5/?utm_source=ig_web_copy_link aria-label="Link to instagram photo bottom left"><img src="images/insta-3.jpg" alt="Instagram image of two native brazilian babies."/> </a></div>
+            <div><a href = https://www.instagram.com/p/CP8avQTHH1v/?utm_source=ig_web_copy_link aria-label="Link to instagram photo bottom right"><img src="images/insta-4.jpg" alt="Intagram image of a vintage trainstation in Stockholm, Sweden" /> </a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of instagram section -->
+  </main>
+</html>
+
+<!-- footer -->
+<footer id = "footer" class = "py-7">
+  <div class = "container">
+      <div class = "footer-content">
+          <div>
+              <h3>SEBASTIAO SALGADO</h3>
+              <div><img src = "images/about-pic.jpg" alt="Portrait of Sebastiao Salgado"></div>
+          </div>
+
+          <div>
+              <h3>Links</h3>
+              <ul class = "flex">
+                  <li><a href = "index.html#header">Home</a></li>
+                  <li><a href = "index.html#contact">Contact</a></li>
+                  <li><a href = "about.html#about">About</a></li>
+                  <li><a href = "examples.html#portfolio">Portfolio</a></li>
+                  <li><a href = "examples.html#insta">Instagram</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- end of footer -->
+
+
+<!-- typewriting js -->
+<script src = "typewriting-master/typewriting.js"></script>
+
+    <!-- banner script-->
+    <script>
+      const body = document.querySelector("body");
+      const navbar = document.querySelector(".navbar");
+      const menuBtn = document.querySelector(".menu-btn");
+      const cancelBtn = document.querySelector(".cancel-btn");
+      menuBtn.onclick = ()=>{
+        navbar.classList.add("show");
+        menuBtn.classList.add("hide");
+        body.classList.add("disabled");
+      }
+      cancelBtn.onclick = ()=>{
+        body.classList.remove("disabled");
+        navbar.classList.remove("show");
+        menuBtn.classList.remove("hide");
+      }
+      window.onscroll = ()=>{
+        this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+      }
+    </script>
+</body>
+</html>
