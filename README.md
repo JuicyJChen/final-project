@@ -1,2 +1,1 @@
-# final-project
-Portfolio of favorite photographer Sebastiao Salgado
+# 1nick
